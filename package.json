@@ -1,7 +1,7 @@
 {
   "dedicatedTo": "Blue, a great migrating bird.",
   "name": "@conio/serverless-offline",
-  "version": "6.8.0",
+  "version": "1.0.0",
   "description": "Emulate AWS λ and API Gateway locally when developing your Serverless project",
   "license": "MIT",
   "main": "dist/main.js",
@@ -120,7 +120,7 @@
     "Matt Jonker (https://github.com/msjonker)",
     "Melvin Vermeer (https://github.com/melvinvermeer)",
     "Michael MacDonald (https://github.com/mjmac)",
-    "Miso (Mike) Zmiric (https://github.com/mzmiric5)",
+    "Miso (Mike)",
     "Niall Riordan (https://github.com/njriordan)",
     "Norimitsu Yamashita (https://github.com/nori3tsu)",
     "Oliv (https://github.com/obearn)",
@@ -213,5 +213,9 @@
   "resolutions": {
     "bl": "^4.0.3",
     "node-fetch": "^2.6.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
   }
 }
