@@ -96,6 +96,9 @@ export default {
   dockerReadOnly: {
     usage: 'Marks if the docker code layer should be read only. Default: true',
   },
+  dockerOptions: {
+    usage: 'Additional options in case of useDocker',
+  },
   functionCleanupIdleTimeSeconds: {
     usage: 'Number of seconds until an idle function is eligible for cleanup',
   },

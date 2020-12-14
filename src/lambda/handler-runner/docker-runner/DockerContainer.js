@@ -80,6 +80,9 @@ export default class DockerContainer {
       '-e',
       'DOCKER_LAMBDA_STAY_OPEN=1', // API mode
     ]
+    if (this.#dockerOptions.dockerOptions) {
+      dockerArgs.push(...this.#dockerOptions.dockerOptions)
+    }
 
     if (this.#layers.length > 0) {
       logLayers(`Found layers, checking provider type`)
